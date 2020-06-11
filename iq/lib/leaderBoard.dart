@@ -92,6 +92,7 @@ class _LeaderState extends State<Leader> {
                           MaterialPageRoute(
                               builder: (context) => QuizPage(
                                     timed: timed,
+                                category: "Easy",
                                   )));
                     },
                   ))

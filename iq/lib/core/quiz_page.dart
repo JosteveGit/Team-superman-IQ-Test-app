@@ -17,7 +17,7 @@ class QuizPage extends StatefulWidget {
   final String category;
   final bool timed;
 
-  const QuizPage({Key key, this.category, this.timed}) : super(key: key);
+  const   QuizPage({Key key, this.category, this.timed}) : super(key: key);
 
   @override
   _QuizPageState createState() => _QuizPageState();
