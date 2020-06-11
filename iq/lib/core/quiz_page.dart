@@ -282,13 +282,10 @@ class _QuizPageState extends State<QuizPage> with TickerProviderStateMixin {
                                             () {
                                               hasSelectedOption = false;
                                               questionIndex++;
-                                              int questionNumber =
-                                                  questionIndex + 1;
-                                              double questionPercent =
-                                                  (100 * questionNumber) /
-                                                      questions.length;
-                                              percentToRangeOPoint1To1 =
-                                                  questionPercent / 100;
+                                              int questionNumber = questionIndex + 1;
+                                              double questionPercent = (100 * questionNumber) / 20;
+                                              print(questions.length);
+                                              percentToRangeOPoint1To1 = questionPercent / 100;
                                             },
                                           );
                                         } else {
